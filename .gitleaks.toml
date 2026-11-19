@@ -12,7 +12,7 @@ secretGroup = 1
 
 
 [[rules]]
-id = "classroom-demo-code"
+id = "khan-service-token"
 description = "Classroom demo code"
 path = '''(^|/)config\.py$'''
-regex = '''\bLAB-DEMO-[0-9]{6}\b'''
+regex = '''\bKHAN-[0-9]{5}\b'''
